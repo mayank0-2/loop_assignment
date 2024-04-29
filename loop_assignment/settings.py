@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'loop_assignment.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'DATABASE': 'loop_assignment',
+        'NAME': 'loop_assignment',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': '127.0.0.1',

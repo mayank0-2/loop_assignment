@@ -22,7 +22,7 @@ class TimeZone(models.Model):
 
 
 class StoreStatus(models.Model):
-    store_id = models.BigIntegerField(null=True)
+    store_id = models.BigAutoField(primary_key=True)
     status = models.CharField(max_length=6, null=True)
     timestamp_utc = models.CharField(max_length=30, null=True)
 
